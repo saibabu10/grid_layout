@@ -15,11 +15,14 @@
     display: grid;
     font-size: 25px;
     justify-content: center;
-   
+   padding-top: 30px;
 }
 .section2{
     border: 2px solid black;
     text-align: center;
+    padding-top: 30px;
+    background-color: rgba(244,239,222,255);
+
 }
 .upcoming{
     text-decoration: underline;
@@ -29,9 +32,71 @@
     font-size: 25px;
 }
 .the_book{
-    border: 2px solid black;
+    border:  2px solid black;
    grid-column-start: 3;
    width: 100%;
-   height: 200%;
+   height: 150%;
+   background-color: rgba(244,239,222,255);
+   
 }
+.titleofbook{
+ text-decoration: underline;
+ position: absolute;
+bottom: 92%;
+ margin-left: 20%;
+ 
 
+}
+.change{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    float: right;
+    background-color: white;
+}
+.box2{
+    border: 1px solid black; 
+}
+.box1{
+    border: 1px solid black;
+}
+.types{
+    display: grid;
+    grid-template-columns: repeat(2,10%);
+    border: 2px solid black;
+    background-color: rgba(244,239,222,255);
+    position: absolute;
+    right:7%;
+    top: 43%;
+    margin-bottom: -10px; 
+}
+.synopsis{
+    display: grid;
+    margin-left:100%;
+    padding: 10%;
+}
+.author{
+    display: grid;
+    border: 2px solid black;
+    margin-left:300%;
+    padding:-10%;
+    
+}
+#under{
+    text-decoration: underline;
+}
+.footer{
+    display:grid;
+    border: 2px solid black;
+    background-color: rgba(244,239,222,255);
+    grid-template-columns:repeat(2,50%);
+}
+.firstfooter{
+    font-size: smaller;
+    text-align: center;
+}
+.secondfooter{
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
